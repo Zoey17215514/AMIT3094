@@ -9,6 +9,17 @@
     <servlet-class>Web.CookieServlet</servlet-class>
 </servlet>
 
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>SecureApp</web-resource-name>
+            <url-pattern>/*</url-pattern>
+        </web-resource-collection>
+        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
+    </security-constraint>
+
+
 <servlet-mapping>
     <servlet-name>CookieServlet</servlet-name>
     <url-pattern>/CookieServlet</url-pattern>
