@@ -10,7 +10,7 @@
      <form method="post">
        <label>Name:</label>
        <input type="name" id="name" name="name" required/>
-       <label>Email:</label>
+       <label>Emailhfyyfhyf:</label>
        <input type="email" id="email" name="email" required/>
        <input type="submit"name="action" value="Register"/>
     </form>
