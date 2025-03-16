@@ -2,17 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/Chong%20Sze%20Ling/Downloads/GitHub/AMIT3094/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/Chong%20Sze%20Ling/Downloads/GitHub/AMIT3094/web/cart.jsp</file>
-            <file>file:/C:/Users/Chong%20Sze%20Ling/Downloads/GitHub/AMIT3094/src/java/bns/Controller/MainServlet.java</file>
-            <file>file:/C:/Users/Chong%20Sze%20Ling/Downloads/GitHub/AMIT3094/web/index.jsp</file>
-            <file>file:/C:/Users/Chong%20Sze%20Ling/Downloads/GitHub/AMIT3094/src/java/bns/Controller/CartServlet.java</file>
-            <file>file:/C:/Users/Chong%20Sze%20Ling/Downloads/GitHub/AMIT3094/web/main.jsp</file>
-            <file>file:/C:/Users/Chong%20Sze%20Ling/Downloads/GitHub/AMIT3094/src/java/bns/Model/CartModel.java</file>
-            <file>file:/C:/Users/Chong%20Sze%20Ling/Downloads/GitHub/AMIT3094/web/WEB-INF/glassfish-web.xml</file>
-            <file>file:/C:/Users/Chong%20Sze%20Ling/Downloads/GitHub/AMIT3094/build.xml</file>
-            <file>file:/C:/Users/Chong%20Sze%20Ling/Downloads/GitHub/AMIT3094/src/java/bns/Model/MainModel.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

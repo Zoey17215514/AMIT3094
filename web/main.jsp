@@ -12,13 +12,9 @@
     <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
 </head>
 <body>
+    
     <header>
-        <h1>Welcome to My Store</h1>
-        <nav>
-            <a href="index.jsp">Home</a>
-            <a href="cart.jsp">Cart</a>
-            <a href="products.jsp">Products</a>
-        </nav>
+        <jsp:include page="templates/header.jsp" />
     </header>
 
     <section>
@@ -29,4 +25,8 @@
         </ul>
     </section>
 </body>
+
+    <footer>
+        <jsp:include page="/templates/footer.jsp" />
+    </footer>
 </html>
