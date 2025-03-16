@@ -9,7 +9,7 @@
 <html lang="en">
 <head>
     <title>Home - My Store</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+     <link href="assets/css/main.css" rel="stylesheet">
 </head>
 <body>
     
