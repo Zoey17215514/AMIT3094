@@ -4,18 +4,7 @@
     Author     : Chong Sze Ling
 --%>
 
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Home - My Store</title>
-     <link href="assets/css/main.css" rel="stylesheet">
-</head>
-<body>
-    
-    <header>
-        <jsp:include page="templates/header.jsp" />
-    </header>
+    <jsp:include page="includes/header.jsp" />
 
     <section>
         <h2>Featured Products</h2>
@@ -26,7 +15,7 @@
     </section>
 </body>
 
-    <footer>
-        <jsp:include page="/templates/footer.jsp" />
+    <footer id="footer" class="footer dark-background">
+        <jsp:include page="includes/footer.jsp" />
     </footer>
 </html>
