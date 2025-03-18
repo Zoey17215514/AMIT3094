@@ -22,12 +22,8 @@
     }
 %>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Shopping Cart</title>
-</head>
-<body>
+    <jsp:include page="includes/header.jsp" />
+
     <h1>Shopping Cart</h1>
     <ul>
         <% for (String item : cart) { %>
@@ -36,5 +32,7 @@
     </ul>
 
     <a href="checkout.jsp">Proceed to Checkout</a>
+    
+    <jsp:include page="includes/footer.jsp" />
 </body>
 </html>

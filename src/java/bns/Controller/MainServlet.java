@@ -14,21 +14,22 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("/Web Pages")
+@WebServlet("/mainPage")
 public class MainServlet extends HttpServlet {
     private MainService mainService = new MainService();
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<MainModel> contentList = mainService.getContentList();
 
-        // ✅ Debugging: Print fetched data
-        System.out.println("📌 Retrieved Data Count: " + contentList.size());
-        for (MainModel item : contentList) {
-            System.out.println("📌 Sending to JSP -> ID: " + item.getId() + ", Title1: " + item.getSessionTitle1());
+        if (contentList == null || contentList.isEmpty()) {
+            System.out.println("❌ No data received in MainServlet!");
+        } else {
+            System.out.println("✅ Servlet received " + contentList.size() + " records.");
         }
 
-        // Send data to JSP
         request.setAttribute("contentList", contentList);
+        System.out.println("📌 Forwarding data to main.jsp");
+
         request.getRequestDispatcher("main.jsp").forward(request, response);
     }
 }

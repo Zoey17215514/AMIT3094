@@ -12,17 +12,6 @@ public class MainService {
 
     public List<MainModel> getContentList() {
         List<MainModel> contentList = mainDAO.getContentList();
-
-        if (contentList == null || contentList.isEmpty()) {
-            System.out.println("❌ No data received in MainService!");
-        } else {
-            System.out.println("✅ Service received " + contentList.size() + " records.");
-            for (MainModel model : contentList) {
-                System.out.println("🔹 " + model.getSessionTitle1() + " | " + model.getSessionTitle2());
-            }
-        }
-
         return contentList;
     }
-    
 }

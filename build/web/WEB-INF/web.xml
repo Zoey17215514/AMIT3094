@@ -9,10 +9,10 @@
         <servlet-name>MainServlet</servlet-name>
         <servlet-class>bns.Controller.MainServlet</servlet-class>
     </servlet>
-
+    
     <servlet-mapping>
         <servlet-name>MainServlet</servlet-name>
-        <url-pattern>/Web Pages</url-pattern>
+        <url-pattern>/mainPage</url-pattern>
     </servlet-mapping>
 
     <servlet>

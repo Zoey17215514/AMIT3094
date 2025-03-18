@@ -4,7 +4,7 @@
     Author     : Chong Sze Ling
 --%>
 
-    <div class="footer">
+    <div class="footer dark-background">
         <div class="container">
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6">

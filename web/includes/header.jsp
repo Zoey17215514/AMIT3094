@@ -3,7 +3,8 @@
     Created on : Mar 16, 2025, 5:56:03 PM
     Author     : Chong Sze Ling
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page import="java.util.List, bns.Model.MainModel" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -32,7 +33,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             
-            <div class="container-fluid">
+            <div class="container-fluid mt-2">
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                   <button class="btn btn-outline-primary" type="submit">Search</button>
