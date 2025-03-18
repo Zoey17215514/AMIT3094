@@ -1,4 +1,4 @@
-package bns.Utils;
+package bns.DAO;
 
 import javax.crypto.*;
 import javax.crypto.spec.SecretKeySpec;
