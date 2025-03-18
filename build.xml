@@ -70,9 +70,29 @@
         <target name="-pre-compile">
          <mkdir dir="web/WEB-INF/lib"/>
          <copy todir="web/WEB-INF/lib">
-           <fileset dir="lib" includes="*/.jar"/>
+           <fileset dir="lib" includes="**/*.jar"/>
          </copy>
         </target>
+
+      <path id="lib.classpath">
+        <fileset dir="lib">
+         <include name="*.jar"/>
+        </fileset>
+     </path>
+
+     <target name="compile" depends="init">
+       <javac srcdir="src" destdir="build/classes" classpathref="lib.classpath" />
+     </target>
+
+    <target name="run" depends="compile">
+       <java classname="bns.MainClass" fork="true">
+        <classpath>
+            <path refid="lib.classpath"/>
+            <pathelement path="build/classes"/>
+        </classpath>
+       </java>
+    </target>
+
 
 
     -->
