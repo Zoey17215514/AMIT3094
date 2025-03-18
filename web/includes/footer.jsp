@@ -53,7 +53,7 @@
                     <form action="forms/newsletter.php" method="post">
                         <div class="input-group">
                             <input type="email" name="email" class="form-control" placeholder="Your email">
-                            <button class="btn btn-success" type="submit">Subscribe</button>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
                         </div>
                     </form>
                 </div>
